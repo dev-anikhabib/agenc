@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+        list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+
+/* ===== common css end ===== */
+
+/* ===== navbar start ===== */
+
+.navbar-expand-lg{
+    position: absolute;
+    width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    transition: all linear .4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #4756DF;
+}
+.nav-btn button{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+/* ===== nav end ===== */
+/* ===== banner start ===== */
+
+#banner{
+    background: url(../images/banner.jpg);
+    height: 896px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1{
+    width: 950px;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    line-height: 120%;
+    padding-top: 315px;
+    padding-bottom: 51px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.banner-text p{
+    width: 621px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.banner-btn button{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+}
+
+/* ===== banner end ===== */
